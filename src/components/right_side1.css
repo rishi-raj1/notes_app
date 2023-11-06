@@ -1,0 +1,33 @@
+.right1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #F7ECDC;
+    height: 100vh;
+    width: 73%;
+}
+
+.para1 {
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.para2 {
+    margin-top: 20px;
+}
+
+.last-line {
+    margin-top: 220px;
+    display: flex;
+}
+
+.last-line img {
+    margin-right: 10px;
+    width: 24px;
+}
+
+.last-line p {
+    font-size: 25px;
+}

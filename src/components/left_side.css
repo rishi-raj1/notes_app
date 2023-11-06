@@ -1,0 +1,44 @@
+.left_side {
+    width: 27%;
+    height: 100vh;
+    overflow-y: scroll;
+}
+
+
+.heading {
+    padding-left: 30px;
+    padding-top: 20px;
+    font-size: 30px;
+    color: black;
+    font-weight: 500;
+}
+
+
+.create_button {
+    width: 65%;
+    background-color: black;
+    color: white;
+    padding: 0px 25px;
+    border-radius: 30px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 60px;
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+span {
+    font-size: 33px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    margin-top: 3px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+}
+
+.create_button p {
+    font-size: 17px;
+}

@@ -31,3 +31,9 @@
 .last-line p {
     font-size: 25px;
 }
+
+@media screen and (max-width: 550px) {
+    .right1 {
+        display: none;
+    }
+}

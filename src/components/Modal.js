@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import './modal.css'
 
 const Modal = ({ setShowModal, setGroupData }) => {
 
@@ -31,13 +32,13 @@ const Modal = ({ setShowModal, setGroupData }) => {
 
     return (
 
-        <div style={{ width: '450px', height: '200px', backgroundColor: 'white', position: 'absolute', top: '200px', left: '600px', borderRadius: '10px' }} >
-            <p style={{ marginTop: '20px', marginLeft: '20px', fontSize: '20px' }}>Create New Notes group</p>
+        <div className='modal'>
+            <p className='modal-heading'>Create New Notes group</p>
 
-            <div style={{ display: 'flex', marginTop: '18px', marginLeft: '28px', fontSize: '18px' }}>
-                <p style={{ marginRight: '20px', marginTop: '9px' }}>Group Name</p>
+            <div className='input-div'>
+                <p className='input-para'>Group Name</p>
 
-                <input placeholder='Enter your group name....' onChange={(e) => setGroupName(e.target.value)} value={groupName} style={{ borderRadius: '18px', border: '1px solid gray', outline: 'none', width: '270px', height: '40px', fontSize: '17px', padding: '5px 13px' }} />
+                <input className='modal-input' placeholder='Enter your group name....' onChange={(e) => setGroupName(e.target.value)} value={groupName} />
             </div>
 
             <div style={{ display: 'flex', marginLeft: '28px', marginTop: '20px' }}>

@@ -42,3 +42,9 @@ span {
 .create_button p {
     font-size: 17px;
 }
+
+@media screen and (max-width: 550px) {
+    .left_side {
+        width: 100%;
+    }
+}

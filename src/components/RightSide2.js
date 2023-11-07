@@ -114,10 +114,10 @@ const RightSide2 = ({ ind }) => {
     return (
         <div className='right2'>
             <div className='first-div'>
-                <div style={{ width: "50px", height: "50px", backgroundColor: bgColor, borderRadius: "50%", display: 'flex', alignItems: 'center', justifyContent: 'center', marginLeft: '20px', color: 'white', fontSize: '18px', letterSpacing: '1px' }}>
+                <div className='shortName' style={{ backgroundColor: bgColor }}>
                     {shortName}
                 </div>
-                <p style={{ marginLeft: '30px', fontSize: '25px' }}>{grpName}</p>
+                <p className='grpName'>{grpName}</p>
             </div>
             <div className='second-div'>
                 {

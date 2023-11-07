@@ -11,6 +11,24 @@
     height: 70px;
 }
 
+.shortName {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    margin-left: 20px;
+    letter-spacing: 1px;
+}
+
+.grpName {
+    margin-left: 30px;
+    font-size: 25px;
+}
+
 .second-div {
     height: 400px;
     background-color: #F7ECDC;
@@ -20,4 +38,22 @@
 
 .third-div {
     background-color: #E8E8E8;
+}
+
+@media screen and (max-width: 550px) {
+    .shortName {
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        font-size: 16px;
+    }
+
+    .grpName {
+        margin-left: 15px;
+        font-size: 22px;
+    }
+
+    .right2 {
+        width: 100%;
+    }
 }
